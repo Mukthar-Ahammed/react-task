@@ -1,5 +1,5 @@
 import { Autocomplete, Box, Button, Modal, Stack, TextField } from '@mui/material';
-import React, { useMemo, useState } from 'react';
+import { useMemo, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { toast } from 'react-toastify';
 import { addLocalTreatment, selectTreatments } from '../features/treatmentSlice';

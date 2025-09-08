@@ -1,5 +1,5 @@
 import { Box, Button, Paper, Stack, TextField, Typography } from "@mui/material";
-import React, { useState } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const LoginPage = () => {
@@ -12,7 +12,7 @@ const LoginPage = () => {
     e.preventDefault();
 
     if (email === "test@example.com" && password === "password123") {
-      navigate("/treatments"); // ✅ Directly go to TreatmentListPage
+      navigate("/treatments"); 
     } else {
       setError("Invalid credentials. Please try again.");
     }

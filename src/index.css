@@ -1,3 +1,5 @@
-html, body, #root { height: 100%; }
-
-
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  background: linear-gradient(to right, #141E30, #243B55);
+}

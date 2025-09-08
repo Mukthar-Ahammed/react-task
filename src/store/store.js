@@ -7,7 +7,7 @@ const appReducer = combineReducers({
   treatments: treatmentsReducer,
 });
 
-// clear state on logout
+
 const rootReducer = (state, action) => {
   if (action.type === authLogout.type) {
     state = undefined;
